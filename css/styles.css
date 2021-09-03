@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15% !important;
+}
+
+#title .container-fluid {
+  padding: 3% 15% !important;
+}
+
+/* Sections */
+
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem !important;
+}
+
+.navbar-brand {
+  font-size: 2.5rem !important;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0 1rem !important;
+}
+
+/* Title Heading and Photo */
+
+.big-heading {
+  text-align: left;
+  font-size: 4rem;
+}
+
+.button-group {
+  text-align: left;
+  padding-top: 40px;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* Feature-section */
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.fa-american-sign-language-interpreting,
+.fa-angellist,
+.fa-blog {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.testimonial-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section  */
+
+#pricing {
+  padding: 100px;
+}
+
+.card {
+  margin: 8% 5% 3%;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Another Download Section  */
+
+.big-foot {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.download-icon {
+  padding-right: 6px;
+  font-size: 1.1rem;
+}
+
+.download-button {
+  margin: 10px 5px 0;
+  padding: 0 5px;
+}
+
+/* Footer  */
+
+.social-icon {
+  margin: 10px 10px 20px;
+}
+
+@media (max-width: 1028px) {
+  .big-heading {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .button-group {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .title-image {
+    transform: rotate(0);
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+
+  .big-foot {
+    font-size: 2rem;
+  }
+
+  #cta .container-fluid {
+    padding: 15% 15% !important;
+  }
+}
