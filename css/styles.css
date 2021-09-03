@@ -21,11 +21,11 @@ p {
 /* Containers */
 
 .container-fluid {
-  padding: 7% 15% !important;
+  padding: 7% 10% !important;
 }
 
 #title .container-fluid {
-  padding: 3% 15% !important;
+  padding: 3% 10% !important;
 }
 
 /* Sections */
@@ -146,24 +146,45 @@ p {
 }
 
 @media (max-width: 1028px) {
-  .big-heading {
-    text-align: center;
-    font-size: 3rem;
+  /* Containers */
+
+  .container-fluid {
+    padding: 7% 5% !important;
   }
 
+  #title .container-fluid {
+    padding: 3% 5% !important;
+  }
+
+  /* navbar */
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .big-heading {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .title-image {
+    transform: rotate(0);
+  }
   .button-group {
     text-align: center;
     margin-bottom: 40px;
   }
-
-  .title-image {
-    transform: rotate(0);
+  /* price section  */
+  #pricing {
+    padding: 100px 50px;
   }
+  .pricing-heading {
+    font-size: 2rem;
+  }
+  /* testimonial   */
 
   .testimonial-text {
     font-size: 1.5rem;
   }
 
+  /* cta */
   .big-foot {
     font-size: 2rem;
   }
